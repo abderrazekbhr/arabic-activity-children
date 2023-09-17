@@ -1,0 +1,117 @@
+
+.activite{
+    cursor: pointer;
+    display: grid;
+    margin: 0 auto;
+    list-style: none;
+    color: white;
+    width: 15vw;
+    font-family: title;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5em 2em;
+    text-align: center;
+    border-radius: 0.2em;
+}
+.a1{
+    background:#87CEEBaa; 
+}
+.a1:hover{
+    box-shadow:0.3em 0.3em 0.3em #76b4cd99 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a2{
+    background:#E6E6FAaa; 
+}
+.a2:hover{
+    box-shadow:0.3em 0.3em 0.3em #aaaaFA99 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a3{
+    background:#98FF98aa; 
+}
+.a3:hover{
+    box-shadow:0.3em 0.3em 0.3em #70FF8099 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a4{
+    background:#FF7F50aa; 
+}
+.a4:hover{
+    box-shadow:0.3em 0.3em 0.3em #FF7F5099 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a5{
+    background:#40E0D0aa; 
+}
+.a5:hover{
+    box-shadow:0.3em 0.3em 0.3em #40E0D099 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a6{
+    background:#DAA520aa; 
+}
+.a6:hover{
+    box-shadow:0.3em 0.3em 0.3em #bb752099 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a7{
+    background:#FA8072aa; 
+}
+.a7:hover{
+    box-shadow:0.3em 0.3em 0.3em #ee807299 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a8{
+    background:#DA70D6aa; 
+}
+.a8:hover{
+    box-shadow:0.3em 0.3em 0.3em #c767c499 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+.a9{
+    background:#6495EDaa;
+}
+.a9:hover{
+    box-shadow:0.3em 0.3em 0.3em #547cc699 ;
+    scale:1.1;
+    border-radius: 2em;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+.content{
+    padding: 0;
+    background-image: url("../../assets/341792299_770012378019495_3537664848324089426_n.jpg");
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}

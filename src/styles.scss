@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'title';
+    src: url("/assets/fonts/Cairo/Cairo-VariableFont_slnt\,wght.ttf") ;
+  }
+html, body { height: 100%; }
+body {
+   margin: 0; 
+  font-family:title;
+ }
+
+ *{
+  font-family:title;
+
+ }

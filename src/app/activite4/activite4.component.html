@@ -1,0 +1,36 @@
+<div class="content">
+  <div class="sub-content">
+      <button type="button" class="btn btn-outline-secondary position-absolute top-0 start-50 translate-middle-x " (click)="returnBack()">القيمة الرئسية</button>
+      <h2  >
+        الحواس و الوقاية
+        من الأمراض</h2>
+      <div class="question">
+          <h3 style="font-family: title;">
+              :
+              <b style="border:2px solid rgb(255, 157, 0);padding: 0.5em ; margin:0 0.5em ; border-radius: 0.5em;">
+                ألون
+              </b>
+              
+              الإجابة الصحيحة  </h3>
+             <br>
+             <img src="../../assets/icons/pencil.png" alt="idea">
+            </div>
+            <h4>
+              كيف يمكن حماية حواسي ؟
+             </h4>
+      <div class="options">
+          <button (click)="onRemoveLastDraw()" type="button" class="btn btn-secondary">
+          الرجوع للوراء
+          </button>
+          <div style="display: flex; justify-content:center ;">
+              <input type="color" [(ngModel)]="brushColor" (change)="onBrushColorChange($event)">
+              <p style="text-align: right;">
+                  اضغط هنا لتغيير لون
+              </p>
+          </div>
+      </div>
+      <div class="canvaContainer" style="background-color: beige; border-radius: 1em;">
+          <canvas width="770" height="350" style="z-index: 1000; box-shadow: 0.2em 0.2em 0.3em rgb(77, 77, 77);border-radius: 1em; display:block;margin: auto;" #canvas></canvas>
+      </div>
+  </div>
+ </div>
